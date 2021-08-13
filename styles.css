@@ -185,6 +185,9 @@
   padding-bottom: 22px;
   display: flex;
 }
+.features__advantage-item:last-child {
+  margin-bottom: 110px;
+}
 .features__advantage-item-text {
   font-weight: 700;
   font-size: 22px;
@@ -783,7 +786,7 @@
 
 .audience {
   background-color: #00a1c612;
-  padding: 51px 15px;
+  padding: 50px 15px;
 }
 @media screen and (min-width: 1400px) {
   .audience {
@@ -863,6 +866,9 @@
     margin-right: 10px;
     flex-shrink: 0;
   }
+}
+.audience__button:last-child {
+  color: #000;
 }
 @media screen and (min-width: 1400px) {
   .audience__choice {
