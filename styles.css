@@ -852,7 +852,7 @@
 @media screen and (min-width: 1400px) {
   .audience__buttons {
     display: flex;
-    margin-top: 32px;
+    margin-top: 31px;
   }
 }
 @media screen and (max-width: 1399px) {
