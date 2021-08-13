@@ -1,6 +1,9 @@
 .audience {
   background-color: $color-light-blue;
-  padding: 50px 15px;
+  padding: 51px 15px;
+  @include for-large-up {
+    padding: 0;
+  }
 
   &__container {
     @include for-large-up {
@@ -140,17 +143,21 @@
   &__img {
     margin-top: 22px;
 
-    &:nth-child(1) {
-      max-width: 138px;
+    &_first {
+      width: 138px;
+      height: 195px;
     }
-    &:nth-child(2) {
-      max-width: 142px;
+    &_second {
+      width: 142px;
+      height: 195px;
     }
-    &:nth-child(3) {
-      max-width: 160px;
+    &_third {
+      width: 160px;
+      height: 195px;
     }
-    &:nth-child(4) {
-      max-width: 119px;
+    &_fought {
+      width: 119px;
+      height: 195px;
     }
   }
 

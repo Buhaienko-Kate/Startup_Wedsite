@@ -695,6 +695,7 @@
   .order__img {
     max-width: 269px;
     margin-right: 121px;
+    margin-left: 0;
   }
 }
 .order__details {
@@ -710,8 +711,9 @@
 }
 @media screen and (min-width: 1400px) {
   .order__title {
-    margin-top: 0;
+    margin-top: 33px;
     margin-bottom: 12px;
+    text-align: left;
   }
 }
 .order__text {
@@ -781,7 +783,12 @@
 
 .audience {
   background-color: #00a1c612;
-  padding: 50px 15px;
+  padding: 51px 15px;
+}
+@media screen and (min-width: 1400px) {
+  .audience {
+    padding: 0;
+  }
 }
 @media screen and (min-width: 1400px) {
   .audience__container {
@@ -919,17 +926,21 @@
 .audience__img {
   margin-top: 22px;
 }
-.audience__img:nth-child(1) {
-  max-width: 138px;
+.audience__img_first {
+  width: 138px;
+  height: 195px;
 }
-.audience__img:nth-child(2) {
-  max-width: 142px;
+.audience__img_second {
+  width: 142px;
+  height: 195px;
 }
-.audience__img:nth-child(3) {
-  max-width: 160px;
+.audience__img_third {
+  width: 160px;
+  height: 195px;
 }
-.audience__img:nth-child(4) {
-  max-width: 119px;
+.audience__img_fought {
+  width: 119px;
+  height: 195px;
 }
 .audience__caption {
   font-weight: 700;
