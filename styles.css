@@ -679,7 +679,7 @@
 }
 
 .order {
-  padding: 50px 15px;
+  padding: 51px 15px;
   background-color: #f4f5f7;
 }
 @media screen and (min-width: 1400px) {
@@ -852,7 +852,7 @@
 @media screen and (min-width: 1400px) {
   .audience__buttons {
     display: flex;
-    margin-top: 34px;
+    margin-top: 32px;
   }
 }
 @media screen and (max-width: 1399px) {
