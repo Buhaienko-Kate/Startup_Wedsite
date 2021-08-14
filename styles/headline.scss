@@ -75,18 +75,18 @@
     }
   }
 
-  &__learn-more-btn {
-    margin-top: 15px;
-
-    @include for-large-up {
-      margin-left: 10px;
-      margin-top: 0;
-    }
-  }
-
   &__actions-btn {
     @include for-large-down {
       width: 100%;
+    }
+
+    &:last-child {
+      margin-top: 15px;
+
+      @include for-large-up {
+        margin-left: 10px;
+        margin-top: 0;
+      }
     }
   }
 }
