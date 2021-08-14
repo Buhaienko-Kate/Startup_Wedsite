@@ -887,7 +887,7 @@
   flex-direction: column;
   max-height: 300px;
   max-width: 290px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -909,25 +909,10 @@
     margin-top: 0;
   }
 }
-.audience__visitors_select {
+.audience__visitors:hover {
   background: #3141c5;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-height: 300px;
-  max-width: 290px;
-  margin: 0;
-  margin-top: 15px;
-}
-@media screen and (min-width: 1400px) {
-  .audience__visitors_select {
-    width: 262px;
-    margin-top: 0;
-    margin-left: 30px;
-  }
+  cursor: pointer;
 }
 .audience__img {
   margin-top: 22px;
