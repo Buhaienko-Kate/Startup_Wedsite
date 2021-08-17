@@ -11,6 +11,6 @@ The tech stack is:
 
 ####Author
 
-- # Buhaienko-Kate
+- ##### Buhaienko-Kate
 
 # Startup_Wedsite
