@@ -575,15 +575,9 @@ html {
 .audience__button:last-child {
   color: #000;
 }
-.audience__choice {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 @media screen and (min-width: 1400px) {
   .audience__choice {
-    flex-direction: row;
+    display: flex;
     justify-content: center;
     margin-top: 111px;
     margin-bottom: 110px;
@@ -593,11 +587,11 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin: 0;
   margin-top: 15px;
-  height: 300px;
-  width: 290px;
+  max-height: 300px;
+  max-width: 290px;
+  align-items: center;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
   background-blend-mode: overlay, normal;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -621,8 +615,7 @@ html {
   }
 }
 .audience__visitors:hover {
-  background-color: #3141c5;
-  color: #fff;
+  background: #3141c5;
   box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
   cursor: pointer;
 }
@@ -652,6 +645,7 @@ html {
   font-weight: 700;
   font-size: 22px;
   text-align: center;
+  color: #2b292d;
 }
 
 .order {
@@ -965,10 +959,12 @@ html {
 }
 @media screen and (min-width: 1400px) {
   .page {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     max-width: 1400px;
     min-height: 100vh;
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.scss.map */
