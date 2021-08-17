@@ -1,4 +1,5 @@
-#Startup_Website
+# Startup_Website
+
 **[Site link](https://buhaienko-kate.github.io/Startup_Wedsite/)**
 Layout supports mobile (up-to-1400) and desktop (more than 1400) versions
 The tech stack is:
@@ -9,7 +10,7 @@ The tech stack is:
 - Sass (Scss)
 - BEM methodology
 
-####Author
+#### Author
 
 - ##### Buhaienko-Kate
 
