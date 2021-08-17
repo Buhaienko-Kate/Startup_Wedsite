@@ -9,6 +9,6 @@ The tech stack is:
 - Sass (Scss)
 - BEM methodology
 
-#####Author
+####Author
 
 - Buhaienko-Kate
